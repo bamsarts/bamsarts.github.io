@@ -1,0 +1,19 @@
+{
+  "title":"Manifest Passnger",
+  "Detail": [
+    {
+      "id": 1,
+      "gender":"male",
+      "class": "1A",
+      "name": "Amin Sulaiman",
+      "hp":"089794789424"
+    },
+    {
+      "id":2,
+      "gender":"female",
+      "class":"1B",
+      "name": "Dewi Sutrisna",
+      "hp":"089475839571"
+    }
+  ]
+}
