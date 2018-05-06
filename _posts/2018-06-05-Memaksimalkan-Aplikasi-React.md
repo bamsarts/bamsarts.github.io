@@ -13,6 +13,4 @@ tags:
 ---
 
 
-Saya telah ss
-
-ss
+Saya telah mengerjakan aplikasi web yang cukup besar beberapa tahun terakhir. Mmbuat dari titik nol, dengan teman-teman developer yang dapat meningkatkan sampai sekarang. Mungkin sekarang digunakan oleh jutaan pengguna :satisfied:
