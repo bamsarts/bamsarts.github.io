@@ -26,6 +26,8 @@ facebook_username:  bams.arts2
 twitter_username:   bamsarts26
 
 
+plugins:
+  - jemoji
 
 
 # Build settings
