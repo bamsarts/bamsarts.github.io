@@ -17,4 +17,4 @@ Saya telah mengerjakan aplikasi web yang cukup besar beberapa tahun terakhir. Mm
 
 Seperti artikel yang ditulis dari [Nathanel Beisigel](http://engineering.kapost.com/author/nathanaelbeisiegel/) dimana dia menjelaskan strategi dalam mengatur aplikasi react yang besar, tapi saya masih belum puas dengan pendekatan yang dilakukan. Jadi saya memutuskan untuk meluangkan waktu untuk mencari tahu cara terbaik untuk project aplikasi react saya suatu saat kedepan.
 
-NB 1 : Saya menggunakan Redux File dalam semua contoh pada artikel ini
+Nb : Saya menggunakan Redux dalam semua contoh pada artikel ini. Jika kamu tidak tahu dengan Redux, kamu dapat mengetahui pada [dokumentasi resminya](https://redux.js.org/)
