@@ -24,4 +24,5 @@ Nb : Saya menggunakan Redux dalam semua contoh pada artikel ini. Jika kamu tidak
 
 Ini merupakan apa yang telah terjadi atau yang akan terjadi pada hampir semua _developer_ selama masa karirnya :
 
-- Kamu membangun sebuah aplikasi untuk _client_ dengan tim dari beberapa _developer_, semuanya berjalan dengan lancar
+- Kamu membangun sebuah aplikasi untuk _client_ dengan tim dari beberapa _developer_, semuanya berjalan dengan lancar :smiley:
+- _Client_ kamu membutuhkan fitur baru sama dengan _task_ baru :open_mouth:
