@@ -26,3 +26,4 @@ Ini merupakan apa yang telah terjadi atau yang akan terjadi pada hampir semua _d
 
 - Kamu membangun sebuah aplikasi untuk _client_ dengan tim dari beberapa _developer_, semuanya berjalan dengan lancar :smiley:
 - _Client_ kamu membutuhkan fitur baru sama dengan _task_ baru :open_mouth:
+- _Client_ kamu bertanya untuk menghilangkan beberapa fitur dan ditambahkan fitur baru, hal ini menjadi rumit. Kamu tidak memikirkannya, tapi kamu membuatya berfungsi meskipun tidak sempurna :relieved:
