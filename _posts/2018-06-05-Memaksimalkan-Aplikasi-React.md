@@ -13,7 +13,7 @@ tags:
 ---
 
 
-Saya telah mengerjakan aplikasi web yang cukup besar beberapa tahun terakhir. Mmbuat dari titik nol, dengan teman-teman developer yang dapat _scale_ sampai sekarang. Mungkin sekarang sudah digunakan oleh jutaan pengguna :satisfied:. Dalam membangun aplikasi React terkadang jika tidak memulai dengan struktur folder yang baik, ini dapat mengalami kesulitan dalam menjaga code anda tetap terorganisir.
+Saya telah mengerjakan aplikasi web yang cukup besar beberapa tahun terakhir. Membuat dari nol, dengan teman-teman developer yang dapat _scale_ sampai sekarang. Mungkin sekarang sudah digunakan oleh jutaan pengguna :satisfied:. Dalam membangun aplikasi React terkadang jika tidak memulai dengan struktur folder yang baik, ini dapat mengalami kesulitan dalam menjaga code anda tetap terorganisir.
 
 Seperti artikel yang ditulis dari [Nathanel Beisigel](http://engineering.kapost.com/author/nathanaelbeisiegel/) dimana dia menjelaskan strategi dalam mengatur aplikasi react yang besar, tapi saya masih belum puas dengan pendekatan yang dilakukan. Jadi saya memutuskan untuk meluangkan waktu untuk mencari tahu cara terbaik untuk project aplikasi react saya suatu saat kedepan.
 
@@ -24,7 +24,7 @@ Nb : Saya menggunakan Redux dalam semua contoh pada artikel ini. Jika kamu tidak
 
 Ini merupakan apa yang telah terjadi atau yang akan terjadi pada hampir semua _developer_ selama masa karirnya :
 
-- Kamu membangun sebuah aplikasi untuk _client_ dengan tim dari beberapa _developer_, semuanya berjalan dengan lancar :smiley:
+- Kamu membangun sebuah aplikasi untuk _client_ dengan tim _developer_, semuanya berjalan dengan lancar :smiley:
 - _Client_ kamu membutuhkan fitur baru sama dengan _task_ baru :open_mouth:
 - _Client_ kamu bertanya untuk menghilangkan beberapa fitur dan ditambahkan fitur baru, hal ini menjadi rumit. Kamu tidak memikirkannya, tapi kamu membuatya berfungsi meskipun tidak sempurna :relieved:
-- _Client_ kamu menginginkan kamu untuk merubah fitur yang lain, menghapus fitur lain dan menambahkan fitur lain yang tidak diharapkan.
+- _Client_ kamu menginginkan kamu untuk merubah fitur, menghapus fitur yang lain dan menambahkan fitur baru yang tidak diharapkan. Ini seperti layaknya tambal sulam kode :confounded:
