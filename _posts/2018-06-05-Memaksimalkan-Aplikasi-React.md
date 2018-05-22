@@ -29,3 +29,5 @@ Ini merupakan apa yang telah terjadi atau yang akan terjadi pada hampir semua _d
 - _Client_ kamu bertanya untuk menghilangkan beberapa fitur dan ditambahkan fitur baru, hal ini menjadi rumit. Kamu tidak memikirkannya, tapi kamu membuatya berfungsi meskipun tidak sempurna :relieved:
 - _Client_ kamu menginginkan kamu untuk merubah fitur, menghapus fitur yang lain dan menambahkan fitur baru yang tidak diharapkan. Ini seperti layaknya tambal sulam kode :confounded:
 - Beberapa lama kamudian setelah iterasi, _code_ aplikasi setelah dilihat kembali sulit dibaca dan dimengerti. Semuanya terlihat seperti _spaghetti code_ :anguished:
+
+Ketika _client_ kamu memutuskan untuk membuat versi baru dari aplikasi, dengan beberapa _code_ baru dan fitur baru.
