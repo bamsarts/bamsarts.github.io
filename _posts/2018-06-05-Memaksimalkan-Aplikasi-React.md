@@ -31,3 +31,5 @@ Ini merupakan apa yang telah terjadi atau yang akan terjadi pada hampir semua _d
 - Beberapa lama kamudian setelah iterasi, _code_ aplikasi setelah dilihat kembali sulit dibaca dan dimengerti. Semuanya terlihat seperti _spaghetti code_ :anguished:
 
 Ketika _client_ kamu memutuskan untuk membuat versi baru dari aplikasi, dengan beberapa _code_ baru dan fitur baru. Ada kasus, jika kamu akhirnya menyimpan _legacy code_ yang tetap berjalan dengan _code baru_, ini menjadi lebih sulit untuk di _maintain_. Dan semua ini terjadi karena aplikasi kamu tidak didesain dengan benar dari awal.
+
+Ketika saya memulai untuk belajar React, saya menemukan beberapa artikel menarik yang menjelaskan bagaimana membuat _Todo list_ atau _Game simple_.
