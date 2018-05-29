@@ -32,4 +32,4 @@ Ini merupakan apa yang telah terjadi atau yang akan terjadi pada hampir semua _d
 
 Ketika _client_ kamu memutuskan untuk membuat versi baru dari aplikasi, dengan beberapa _code_ baru dan fitur baru. Ada kasus, jika kamu akhirnya menyimpan _legacy code_ yang tetap berjalan dengan _code baru_, ini menjadi lebih sulit untuk di _maintain_. Dan semua ini terjadi karena aplikasi kamu tidak didesain dengan benar dari awal.
 
-Ketika saya memulai untuk belajar React, saya menemukan beberapa artikel menarik yang menjelaskan bagaimana membuat _Todo list_ atau _Game simple_.
+Ketika saya memulai untuk belajar React, saya menemukan beberapa artikel menarik yang menjelaskan bagaimana membuat _Todo list_ atau _Game simple_. Artikel-artikel itu sangat berguna untuk memahami dasar-dasar _React_, tapi saya dengan cepat sampai pada titik dimana saya tidak menemukan lebih banyak tentang bagaimana saya dapat menggunakan _React_ untuk membangun aplikasi besar, dengan beberapa puluhan halaman dan ratusan _components_.
