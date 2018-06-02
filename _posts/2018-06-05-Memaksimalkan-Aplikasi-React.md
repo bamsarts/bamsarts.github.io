@@ -34,4 +34,43 @@ Ketika _client_ kamu memutuskan untuk membuat versi baru dari aplikasi, dengan b
 
 Ketika saya memulai untuk belajar React, saya menemukan beberapa artikel menarik yang menjelaskan bagaimana membuat _Todo list_ atau _Game simple_. Artikel-artikel itu sangat berguna untuk memahami dasar-dasar _React_, tapi saya dengan cepat sampai pada titik dimana saya tidak menemukan lebih banyak tentang bagaimana saya dapat menggunakan _React_ untuk membangun aplikasi besar, dengan beberapa puluhan halaman dan ratusan _components_.
 
-Setelah sekian mencari-cari, saya belajar bahwa setiap _React boilerplate project_ pada github menghasilkan struktur yang mirip, mereka mengatur semua file berdasarkan type.
+Setelah sekian mencari-cari, saya belajar bahwa setiap _React boilerplate project_ pada github menghasilkan struktur yang mirip, mereka mengatur semua file berdasarkan type. Ini mungkin terlihat familiar seperti berikut :
+
+```
+ /src
+  /actions
+    /notifications.js
+      
+ /components 
+	/Header
+	/Footer
+	/Notifications
+	  /index.js
+
+  /containers
+    /Home
+    /Login
+    /Notifications
+      /index.js
+
+  /images
+    /logo.png
+
+  /reducers 
+    /login.js
+    /notifications.js
+
+  /styles 
+    /app.scss
+    /header.scss 
+    /home.scss
+    /footer.scss
+    /notifications.scss
+
+  /utils
+
+  index.js  
+
+ ```
+
+ Struktur folder ini mungkin baik untuk membangun website atau aplikasi, tapi saya percaya, itu bukan yang terbaik struktur folder.
