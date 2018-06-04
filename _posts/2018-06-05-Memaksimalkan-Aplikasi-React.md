@@ -73,4 +73,4 @@ Setelah sekian mencari-cari, saya belajar bahwa setiap _React boilerplate projec
 
  ```
 
- Struktur folder ini mungkin baik untuk membangun website atau aplikasi, tapi saya percaya, itu bukan yang terbaik struktur folder.
+ Struktur folder ini mungkin baik untuk membangun website atau aplikasi, tapi saya percaya, itu bukan yang terbaik struktur folder. Ketika kamu mengatur file berdasarkan type, sebagai tanda meningkatnya aplikasimu, itu sering mendatangkan kesulitan pada saat _maintain_.
