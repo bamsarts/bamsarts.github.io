@@ -74,3 +74,5 @@ Setelah sekian mencari-cari, saya belajar bahwa setiap _React boilerplate projec
  ```
 
  Struktur folder ini mungkin baik untuk membangun website atau aplikasi, tapi saya percaya, itu bukan yang terbaik struktur folder. Ketika kamu mengatur file berdasarkan type, sebagai tanda meningkatnya aplikasimu, itu sering mendatangkan kesulitan pada saat _maintain_. Pada saat kamu menerapkan ini, ini sudah terlambat dan kamu akan menginvestasikan waktu lebih lama dan uang untuk merubah segalanya, atau mendukung apa yang kamu punya untuk beberapa tahun kedepan.
+
+ Hal yang baik dengan React adalah kamu dapat merancang aplikasi mu dengan cara apapun yang kamu sukai.
