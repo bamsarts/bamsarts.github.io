@@ -78,4 +78,4 @@ Struktur folder ini mungkin baik untuk membangun website atau aplikasi, tapi say
 
 ### Bagaimana cara yang lebih baik dalam mengatur aplikasi ?
 
-Dalam beberapa tahun terakhir, saya telah mencoba di beberapa project menggunakan Ember.JS sebagai _javascript framework_ utama untuk membuat aplikasi web. Satu hal yang menarik dengan Ember.JS yaitu kemampuan untuk menyusun proyek kamu berdasarkan fitur, bukan berdasarkan type. Dan ini mengubah segalanya.
+Dalam beberapa tahun terakhir, saya telah mencoba di beberapa project menggunakan Ember.JS sebagai _javascript framework_ utama untuk membuat aplikasi web. Satu hal yang menarik dengan Ember.JS yaitu kemampuan untuk menyusun proyek kamu berdasarkan fitur, bukan berdasarkan type. Dan ini mengubah segalanya. Pods dalam Ember.JS memang sangat bagus tapi masih terbatas, dan saya menginginkan sesuatu yang jauh lebih fleksibel.
