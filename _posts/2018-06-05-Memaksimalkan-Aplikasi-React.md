@@ -78,4 +78,53 @@ Struktur folder ini mungkin baik untuk membangun website atau aplikasi, tapi say
 
 ### Bagaimana cara yang lebih baik dalam mengatur aplikasi ?
 
-Dalam beberapa tahun terakhir, saya telah mencoba di beberapa project menggunakan Ember.JS sebagai _javascript framework_ utama untuk membuat aplikasi web. Satu hal yang menarik dengan Ember.JS yaitu kemampuan untuk menyusun proyek kamu berdasarkan fitur, bukan berdasarkan type. Dan ini mengubah segalanya. Pods dalam Ember.JS memang sangat bagus tapi masih terbatas, dan saya menginginkan sesuatu yang jauh lebih fleksibel. Setelah beberapa kali percobaan, mencoba menemukan struktur terbaik, saya sampai pada titik dimana saya memutuskan untuk mengelompokan semua fitur menjadi satu, dan mengumpulkannya sesuai kebutuhan.
+Dalam beberapa tahun terakhir, saya telah mencoba di beberapa project menggunakan Ember.JS sebagai _javascript framework_ utama untuk membuat aplikasi web. Satu hal yang menarik dengan Ember.JS yaitu kemampuan untuk menyusun proyek kamu berdasarkan fitur, bukan berdasarkan type. Dan ini mengubah segalanya. Pods dalam Ember.JS memang sangat bagus tapi masih terbatas, dan saya menginginkan sesuatu yang jauh lebih fleksibel. Setelah beberapa kali percobaan, mencoba menemukan struktur terbaik, saya sampai pada titik dimana saya memutuskan untuk mengelompokan semua fitur menjadi satu, dan mengumpulkannya sesuai kebutuhan. Ini yang saya gunakan sekarang :
+
+```
+/src
+  /components 
+    /Button 
+    /Notifications
+      /components
+        /ButtonDismiss  
+          /images
+          /locales
+          /specs 
+          /index.js
+          /styles.scss
+      /index.js
+      /styles.scss
+  /scenes
+    /Home 
+      /components 
+        /ButtonLike
+      /services
+        /processData
+      /index.js
+      /styles.scss
+    /Sign 
+      /components 
+        /FormField
+      /scenes
+        /Login
+        /Register 
+          /locales
+          /specs
+          /index.js
+          /styles.scss
+  /services
+    /api
+    /geolocation
+    /session
+      /actions.js
+      /index.js
+      /reducer.js
+    /users
+      /actions.js
+      /api.js
+      /reducer.js
+  index.js 
+  store.js
+  ```
+
+  Setiap _component_, _scene_ atau _service_ memiliki segala kebutuhan untuk dapat bekerja sendirinya, seperti _style_, _image_, _translation_, _action_, serta _unit testing_ atau _integration testing_.
