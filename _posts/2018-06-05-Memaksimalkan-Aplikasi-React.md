@@ -127,4 +127,8 @@ Dalam beberapa tahun terakhir, saya telah mencoba di beberapa project menggunaka
   store.js
   ```
 
-  Setiap _component_, _scene_ atau _service_ memiliki segala kebutuhan untuk dapat bekerja sendirinya, seperti _style_, _image_, _translation_, _action_, serta _unit testing_ atau _integration testing_. Kamu dapat melihat fitur seperti potongan _code_ yang akan digunakan di aplikasi mu (sedikit mirip node module).
+Setiap _component_, _scene_ atau _service_ memiliki segala kebutuhan untuk dapat bekerja sendirinya, seperti _style_, _image_, _translation_, _action_, serta _unit testing_ atau _integration testing_. Kamu dapat melihat fitur seperti potongan _code_ yang akan digunakan di aplikasi mu (sedikit mirip node module). Agar berfungsi dengan benar, ikutilah aturan berikut ini :
+
+- Sebuah _component_ dapat menentukan _component_ lainnya atau _service_. Dan ini tidak bisa digunakan untuk menentukan _scene_.
+- Sebuah _scene_ dapat menentukan _component_, _scene_ lainya atau _service_.
+- Sebuah _Service_ dapat menentukan _service_ lainnya.
