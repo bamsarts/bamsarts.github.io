@@ -133,3 +133,11 @@ Setiap _component_, _scene_ atau _service_ memiliki segala kebutuhan untuk dapat
 - Sebuah _scene_ dapat menentukan _component_, _scene_ lainya atau _service_.
 - Sebuah _Service_ dapat menentukan _service_ lainnya. Ini tidak digunakan atau mendefinisikac _component_ atau _scene_.
 - Fitur _child_ / turunan hanya dapat digunakan dari _parent_ nya
+
+Bedasarkan aturan-aturan tersebut, mari kita ulas lebih dalam.
+
+#### _Components_
+
+Kamu pasti tahu apa itu _component_, tapi ada satu hal penting yang kamu harus dalam penyusunan ini yaitu kemampuan untuk menurunkan _component_ ke _component_ lain.
+
+
