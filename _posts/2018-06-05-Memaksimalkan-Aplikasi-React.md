@@ -134,10 +134,10 @@ Setiap _component_, _scene_ atau _service_ memiliki segala kebutuhan untuk dapat
 - Sebuah _Service_ dapat menentukan _service_ lainnya. Ini tidak digunakan atau mendefinisikac _component_ atau _scene_.
 - Fitur _child_ / turunan hanya dapat digunakan dari _parent_ nya
 
-Bedasarkan aturan-aturan tersebut, mari kita ulas lebih dalam.
+Bedasarkan aturan-aturan tersebut, mari kita ulas lebih lanjut.
 
 #### _Components_
 
-Kamu pasti tahu apa itu _component_, tapi ada satu hal penting yang kamu harus dalam penyusunan ini yaitu kemampuan untuk menurunkan _component_ ke _component_ lain.
+Kamu pasti tahu apa itu _component_, tapi ada satu hal penting yang kamu harus dalam penyusunan ini yaitu kemampuan untuk menurunkan _component_ ke _component_ lain. _Component_ didefinisikan di tingkat _root_ proyek kamu, dalam folder _component_, atau didefinisikan secara global yang dapat digunakan dimanapun dalam aplikasi. Tapi jika kamu memutuskan untuk mendefinisikan _component_ baru didalam _component_ lain (_nesting_), _component_ baru ini hanya dapat digunakan melalui _parentnya_.
 
 
