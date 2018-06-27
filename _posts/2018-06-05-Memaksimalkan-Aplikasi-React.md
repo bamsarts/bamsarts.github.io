@@ -138,6 +138,13 @@ Bedasarkan aturan-aturan tersebut, mari kita ulas lebih lanjut.
 
 #### _Components_
 
-Kamu pasti tahu apa itu _component_, tapi ada satu hal penting yang kamu harus dalam penyusunan ini yaitu kemampuan untuk menurunkan _component_ ke _component_ lain. _Component_ didefinisikan di tingkat _root_ proyek kamu, dalam folder _component_, atau didefinisikan secara global yang dapat digunakan dimanapun dalam aplikasi. Tapi jika kamu memutuskan untuk mendefinisikan _component_ baru didalam _component_ lain (_nesting_), _component_ baru ini hanya dapat digunakan melalui _parentnya_.
+Kamu pasti tahu apa itu _component_, tapi ada satu hal penting yang kamu harus dalam penyusunan ini yaitu kemampuan untuk menurunkan _component_ ke _component_ lain. _Component_ didefinisikan di tingkat _root_ proyek kamu, dalam folder _component_, atau didefinisikan secara global yang dapat digunakan dimanapun dalam aplikasi. Tapi jika kamu memutuskan untuk mendefinisikan _component_ baru didalam _component_ lain (_nesting_), _component_ baru ini hanya dapat digunakan melalui _parentnya_. 
+
+##### Mengapa kamu harus melakukan ini ?
+
+Ketika kamu mengembangkan aplikasi yang besar, ini cukup sering terjadi ketika bahwa kamu perlu membuat _component_ yang anda tahu pasti tidak akan digunakan kembali dimanapun, tapi kamu membutuhkanya. Jika kamu menambahkannya ke tingkat _root_ folder _componentmu_, ini akan menghilangkan ratusan _component_.
+
+
+
 
 
