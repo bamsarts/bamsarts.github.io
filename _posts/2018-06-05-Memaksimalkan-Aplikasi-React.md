@@ -143,7 +143,9 @@ Kamu pasti tahu apa itu _component_, tapi ada satu hal penting yang kamu harus d
 ##### Mengapa kamu harus melakukan ini ?
 
 Ketika kamu mengembangkan aplikasi yang besar, ini cukup sering terjadi ketika bahwa kamu perlu membuat _component_ yang anda tahu pasti tidak akan digunakan kembali dimanapun, tapi kamu membutuhkanya. Jika kamu menambahkannya ke tingkat _root_ folder _componentmu_, ini akan menghilangkan ratusan _component_.
+Tentu, kamu dapat mengelompokan itu, tapi ketika kamu mau melakukan penghapusan, kamu tidak akan ingat apakah semuanya atau ada yang masih ada digunakan di tempat lain.
 
+Meskipun, jika kamu mendefinisikan pada di tingkat _root component_ utama aplikasimu, seperti _button_, _form field_, _thumbnail_, atau yang lebih kompleks seperti _listComment_, _formComposer dengan kepunyaan _child component_ sendiri, ini akan jauh lebih mudah untuk menemukan apa yang kamu butuhkan.
 
 
 
