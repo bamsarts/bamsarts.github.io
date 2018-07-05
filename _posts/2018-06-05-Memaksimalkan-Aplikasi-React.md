@@ -162,7 +162,7 @@ Contoh:
 ```
 
 - _Button_ dapat digunakan dimana saja di dalam aplikasi.
-- _Notification_ dapat juga digunakan dimana saja.
+- _Notification_ dapat juga digunakan dimana saja. _Component_ ini mendeklrasikan _component ButtonDismiss_. Kamu tidak bisa menggunakan _ButtonDismiss_ dimanapun selain didalam _component Notifications_.
 
 
 
