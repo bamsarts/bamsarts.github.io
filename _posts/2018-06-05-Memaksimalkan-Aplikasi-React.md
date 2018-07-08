@@ -163,6 +163,11 @@ Contoh:
 
 - _Button_ dapat digunakan dimana saja di dalam aplikasi.
 - _Notification_ dapat juga digunakan dimana saja. _Component_ ini mendeklrasikan _component ButtonDismiss_. Kamu tidak bisa menggunakan _ButtonDismiss_ dimanapun selain didalam _component Notifications_.
+- _Component ButtonDismiss_ menggunakan _Button_ secara internal, ini diotorisasi, karena _Button_ didefinisikan pada tingkat _root component_.
+
+#### _Scenes_
+
+_Scene_ merupakan halaman aplikasi. Kamu dapat meletakan _scene_ sama seperti _component_, tapi saya lebih suka memisahkan itu kedalam folder. Jika kamu menggunakan [React Router](https://github.com/reactjs/react-router) atau [React Native Router](https://github.com/aksonov/react-native-router-flux), kamu dapat mengimpor semua scene di file index.js utama dan persiapkan file _route_.
 
 
 
