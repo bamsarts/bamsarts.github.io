@@ -169,6 +169,39 @@ Contoh:
 
 _Scene_ merupakan halaman aplikasi. Kamu dapat meletakan _scene_ sama seperti _component_, tapi saya lebih suka memisahkan itu kedalam folder. Jika kamu menggunakan [React Router](https://github.com/reactjs/react-router) atau [React Native Router](https://github.com/aksonov/react-native-router-flux), kamu dapat mengimpor semua scene di file index.js utama dan persiapkan file _route_.
 
+Dengan prinsip yang sama _component_ dapat juga diturunkan (_nested_), kamu juga dapat menurukan _scene_ kedalam _scene_, dan juga dapat mendefinisikan _component_ atau _service_ kedalam _scene_. Kamu harus ingat, jika kamu memutuskan untuk mendefinisikan sesuatu kedalam _scene_, kamu hanya dapat menggunakannya di dalam folder _scene_ itu sendiri.
+
+Contoh :
+
+```
+/src
+  /scenes
+    /Home 
+      /components
+        /ButtonShare
+          /index.js
+      /index.js
+    /Sign
+      /components
+        /ButtonHelp
+          /index.js
+      /scenes
+        /Login
+          /components 
+            /Form
+              /index.js
+            /ButtonFacebookLogin
+              /index.js
+          /index.js
+       
+        /Register
+          /index.js
+      /index.js
+```
+
+- _Scene Home_ mempunyai sebuah _component ButtonShare_, itu hanya dapat digunakan di _Home Scene_.
+- _Scene Sign_ mempunya sebuah _component ButtonHelp_.
+
 
 
 
