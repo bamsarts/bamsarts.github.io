@@ -14,6 +14,104 @@
       "class":"1B",
       "name": "Dewi Sutrisna",
       "hp":"089475839571"
+    },
+    {
+      "id": 3,
+      "gender":"male",
+      "class": "1A",
+      "name": "Amin Sulaiman",
+      "hp":"089794789424"
+    },
+    {
+      "id": 4,
+      "gender":"female",
+      "class":"1B",
+      "name": "Dewi Sutrisna",
+      "hp":"089475839571"
+    },
+    {
+      "id": 5,
+      "gender":"male",
+      "class": "1A",
+      "name": "Amin Sulaiman",
+      "hp":"089794789424"
+    },
+    {
+      "id": 6,
+      "gender":"female",
+      "class":"1B",
+      "name": "Dewi Sutrisna",
+      "hp":"089475839571"
+    },
+    {
+      "id": 7,
+      "gender":"male",
+      "class": "1A",
+      "name": "Amin Sulaiman",
+      "hp":"089794789424"
+    },
+    {
+      "id": 8,
+      "gender":"female",
+      "class":"1B",
+      "name": "Dewi Sutrisna",
+      "hp":"089475839571"
+    },
+    {
+      "id": 9,
+      "gender":"male",
+      "class": "1A",
+      "name": "Amin Sulaiman",
+      "hp":"089794789424"
+    },
+    {
+      "id": 10,
+      "gender":"female",
+      "class":"1B",
+      "name": "Dewi Sutrisna",
+      "hp":"089475839571"
+    },
+    {
+      "id": 11,
+      "gender":"male",
+      "class": "1A",
+      "name": "Amin Sulaiman",
+      "hp":"089794789424"
+    },
+    {
+      "id": 12,
+      "gender":"female",
+      "class":"1B",
+      "name": "Dewi Sutrisna",
+      "hp":"089475839571"
+    },
+    {
+      "id": 13,
+      "gender":"male",
+      "class": "1A",
+      "name": "Amin Sulaiman",
+      "hp":"089794789424"
+    },
+    {
+      "id": 14,
+      "gender":"female",
+      "class":"1B",
+      "name": "Dewi Sutrisna",
+      "hp":"089475839571"
+    },
+    {
+      "id": 15,
+      "gender":"male",
+      "class": "1A",
+      "name": "Amin Sulaiman",
+      "hp":"089794789424"
+    },
+    {
+      "id": 16,
+      "gender":"female",
+      "class":"1B",
+      "name": "Dewi Sutrisna",
+      "hp":"089475839571"
     }
   ]
 }
