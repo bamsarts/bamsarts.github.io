@@ -200,7 +200,13 @@ Contoh :
 ```
 
 - _Scene Home_ mempunyai sebuah _component ButtonShare_, itu hanya dapat digunakan di _Home Scene_.
-- _Scene Sign_ mempunya sebuah _component ButtonHelp_.
+- _Scene Sign_ mempunya sebuah _component ButtonHelp_. _Component_ ini dapat juga digunakan di _scene login_ atau _scene register_, atau _component_ apa pun yang didefinisikan di _scene_ tersebut.
+- _Component Form_ menggunakan ButtonHelp secara internal, hal ini diotorisasi karena ButtonHelp didefinisikan di _parent_.
+- _Scene Register_ tidak dapat menggunakan salah satu _component_ yang didefinisikan di dalam _scene login_, tapi dapat menggunakan _component ButtonHelp_.
+
+#### _Services_
+
+Tidak semuanya dapat menjadi _component_, dan kamu perlu membuat modul tersendiri yang dapat digunakan di _component_ atau _scene_ kamu.
 
 
 
