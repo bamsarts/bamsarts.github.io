@@ -3,7 +3,7 @@ layout:     post
 title:      Memaksimalkan Aplikasi React
 subtitle:   
 date:       2018-05-06
-author:     bamsarts
+author:     Bambang Supriadi
 header-img: img/post-2-header.jpg
 catalog: true
 tags:
@@ -206,7 +206,24 @@ Contoh :
 
 #### _Services_
 
-Tidak semuanya dapat menjadi _component_, dan kamu perlu membuat modul tersendiri yang dapat digunakan di _component_ atau _scene_ kamu.
+Tidak semuanya dapat menjadi _component_, dan kamu perlu membuat modul tersendiri yang dapat digunakan di _component_ atau _scene_. Kamu dapat melihat _service_ seperti modul tersendiri, dimana kamu akan mendifinisikan _core business logic_ dari aplikasi. Ini pada akhirnya dapat dibagi di antara beberapa _scene_ atau bahkan aplikasi, seperti web dan versi aplikasi _native_.
+
+~~~
+/src
+  /services
+    /api
+      /services
+        /handleError
+          /index.js
+      /index.js
+    /geolocation 
+    /session 
+      /actions.js
+      /index.js
+      /reducer.js
+~~~
+
+Saya merekomendasikan untuk membuat _service_ untuk mengatur semua API _request_. Kamu dapat melihat itu sebagai _adapter_ antara server API dan _view layer_ (_scene dan component_) aplikasi. Itu dapat menjaga _call network_ aplikasi yang dibuat, _get_ dan _post_ konten, dan mengubah _payload_ yang dibutuhkan sebelum dikirim atau disimpan kedalam media penyimpanan aplikasi (seperti Redux).
 
 
 
