@@ -14,9 +14,6 @@ tags:
 
 > Apa yang anda baca adalah pengalaman saya dengan React Native setelah selesainya mini proyek :)
 
-
-![Marcus'Buchecha'Almeida - 现任IBJJF绝对冠军。这家伙很坚强，相信我！图片由BJJ Pix的William Burkhardt提供  。](https://s3-ap-southeast-1.amazonaws.com/otomeals/intelligent.png)
-
 ini adalah keuntungan dari React Native dari pembicaraan orang-orang di internet yang saya rangkum
 
 

@@ -13,24 +13,22 @@ tags:
 ---
 
 
-Dalam membangun aplikasi React terkadang jika tidak memulai dengan struktur folder yang baik, ini dapat mengalami kesulitan dalam menjaga _code_ anda tetap terorganisir. Seperti artikel yang ditulis dari [Nathanel Beisigel](http://engineering.kapost.com/2016/01/organizing-large-react-applications/) dimana dia menjelaskan strategi dalam mengatur aplikasi React yang besar, tapi saya masih belum puas dengan pendekatan yang dilakukan. Jadi saya memutuskan untuk meluangkan waktu untuk mencari tahu cara terbaik untuk project aplikasi react saya suatu saat kedepan.
+Dalam membuat aplikasi dengan React terkadang jika tidak memulai dengan struktur folder yang baik, ini dapat mengalami kesulitan dalam menjaga _code_ anda tetap terorganisir. Seperti artikel yang ditulis dari [Nathanel Beisigel](http://engineering.kapost.com/2016/01/organizing-large-react-applications/) dimana dia menjelaskan strategi dalam mengatur aplikasi React yang besar, tapi saya masih belum puas dengan pendekatan yang dilakukan. Jadi saya memutuskan untuk meluangkan waktu untuk mencari tahu cara terbaik untuk project aplikasi react saya suatu saat kedepan.
 
 Nb: Saya menggunakan Redux dalam semua contoh pada artikel ini. Jika kamu tidak tahu dengan Redux, kamu dapat mengetahui pada [dokumentasi resminya](https://redux.js.org/). Semua contoh berbasis pada ReactJS, tapi kamu dapat menggunakan. Strukturnya sama persis dengan aplikasi React Native.
 
 
 ### Tantangan apa ketika kamu membangun sebuah aplikasi ?
 
-Mungkin ini merupakan kejadian yang pernah terjadi pada hampir semua _developer_ selama masa karirnya :
+Mungkin ini merupakan kejadian yang pernah terjadi pada semua _Software Developer_ selama masa karirnya :
 
 - Kamu membuat sebuah aplikasi untuk _client_ dengan tim kamu, semuanya berjalan dengan lancar :smiley:
 - _Client_ kamu membutuhkan fitur baru sewaktu-waktu :open_mouth:
 - _Client_ kamu menginginkan untuk menghilangkan beberapa fitur dan menambahkan fitur baru. Hal ini menjadi akan menjadi rumit ketika kamu tidak memikirkannya. :relieved:
-- _Client_ kamu menginginkan kamu untuk merubah fitur, menghapus fitur yang lain dan menambahkan fitur baru yang tidak diharapkan. :confounded:
-- Beberapa lama kamudian setelah iterasi, _code_ aplikasi setelah dilihat kembali sulit dibaca dan dimengerti. Semuanya terlihat seperti _spaghetti code_ :anguished:
+- _Client_ kamu menginginkan kamu untuk merubah fitur, menghapus fitur lain dan menambahkan fitur baru yang tidak diharapkan. :confounded:
+- Beberapa lama kamudian setelah iterasi _development_, _code_ aplikasi setelah dilihat kembali sulit dibaca dan dimengerti. Semuanya terlihat seperti _spaghetti code_ :anguished:
 
-Ketika _client_ kamu memutuskan untuk membuat versi baru dari aplikasi, dengan beberapa _code_ baru dan fitur baru. Dan jika kamu akhirnya menyimpan _legacy code_ yang tetap berjalan dengan _code baru_, ini menjadi lebih sulit untuk di maintain. Hal ini terjadi karena aplikasi kamu tidak didesain dengan benar dari awal.
-
-Ketika saya memulai untuk belajar React, saya menemukan beberapa artikel menarik yang menjelaskan bagaimana membuat _Todo list_ atau aplikasi permainan sederhana. Artikel-artikel itu sangat berguna untuk memahami dasar-dasar React, tapi saya dengan cepat sampai pada titik dimana saya tidak menemukan lebih banyak tentang penggunan _React_ untuk membangun aplikasi yang besar, dengan beberapa puluhan halaman dan ratusan komponen.
+Ketika _client_ kamu memutuskan untuk membuat versi baru dari aplikasi, dengan beberapa _code_ baru dan fitur baru. Dan pada akhirnya menyimpan _legacy code_ yang tetap berjalan dengan _code baru_, ini menjadi lebih sulit untuk di maintain. Karena aplikasi kamu tidak didesain dengan benar dari awal. Ketika saya memulai untuk belajar React, saya menemukan beberapa artikel menarik yang menjelaskan bagaimana membuat _Todo list_ atau aplikasi permainan sederhana. Artikel-artikel itu sangat berguna untuk memahami dasar-dasar React, tapi saya dengan cepat sampai pada titik dimana saya tidak menemukan lebih banyak tentang penggunan _React_ untuk membangun aplikasi yang besar, dengan beberapa puluhan halaman dan ratusan komponen.
 
 Setelah sekian mencari-cari, saya belajar bahwa setiap _React boilerplate_ pada github menghasilkan struktur yang mirip. _Boilerplate_ tersebut semua file dikelompokan berdasarkan tipe. Ini mungkin terlihat familiar seperti berikut :
 
@@ -72,11 +70,11 @@ Setelah sekian mencari-cari, saya belajar bahwa setiap _React boilerplate_ pada 
  ```
 
  
-Struktur folder ini bagus untuk membangun website atau aplikasi, tapi saya percaya, itu bukan struktur terbaik. Ketika kamu mengatur file berdasarkan tipe, sebagai parameter meningkatnya aplikasimu, hal itu akan sulit pada saat di maintain. Pada saat kamu menerapkan ini, ini akan menghambat ketika kamu ingin merubah file didalamnya untuk keperluan fitur mendatang. Hal yang baik dengan React adalah kamu dapat merancang aplikasi mu dengan cara apapun yang kamu sukai. Kamu tidak terpaksa untuk mengikuti struktur folder tertentu, Karena React hanya sebuah javascrupt library.
+Struktur folder ini bagus untuk membangun website atau aplikasi, tapi saya percaya itu bukan struktur terbaik. Ketika kamu mengatur file berdasarkan tipe, sebagai parameter meningkatnya aplikasimu, hal itu akan sulit pada saat di maintain. Pada saat kamu menerapkan ini, ini akan menghambat ketika kamu ingin merubah file didalamnya untuk keperluan fitur mendatang. Hal yang baik dengan React adalah kamu dapat merancang aplikasi mu dengan cara apapun yang kamu sukai. Kamu tidak terpaksa untuk mengikuti struktur folder tertentu, Karena React hanya sebuah javascrupt library.
 
 ### Bagaimana cara yang lebih baik dalam mengatur aplikasi ?
 
-Dalam beberapa tahun terakhir, saya telah mencoba di beberapa project menggunakan Ember.JS sebagai _javascript framework_ utama untuk membuat aplikasi web. Satu hal yang menarik dengan Ember.JS yaitu kemampuan untuk menyusun proyek kamu berdasarkan fitur, bukan berdasarkan tipe. Dan ini mengubah segalanya. Pods dalam Ember.JS memang sangat bagus tapi masih terbatas, dan saya menginginkan sesuatu yang jauh lebih fleksibel. Setelah beberapa kali percobaan, dan akhirnya menemukan struktur terbaik. Saya memutuskan untuk mengelompokan semua fitur menjadi satu, dan mengumpulkannya sesuai kebutuhan. Ini yang saya gunakan sekarang :
+Setahun yang lalu, saya telah mencoba menggunakan Ember.JS sebagai _javascript framework_ utama untuk membuat aplikasi web. Satu hal yang menarik dengan Ember.JS yaitu kemampuan untuk menyusun proyek kamu berdasarkan fitur, bukan berdasarkan tipe. Dan ini mengubah segalanya. Pods dalam Ember.JS memang sangat bagus tapi masih terbatas, dan saya menginginkan sesuatu yang jauh lebih fleksibel. Setelah beberapa kali percobaan, dan akhirnya menemukan struktur terbaik. Saya memutuskan untuk mengelompokan semua fitur menjadi satu, dan mengumpulkannya sesuai kebutuhan. Ini yang saya gunakan sekarang :
 
 ```
 /src
