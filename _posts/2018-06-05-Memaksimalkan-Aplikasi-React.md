@@ -2,7 +2,7 @@
 layout:     post
 title:      Memaksimalkan Aplikasi React
 subtitle:   
-date:       2018-07-22
+date:       2018-07-23
 author:     Bambang S
 header-img: img/post-2-header.jpg
 catalog: true
@@ -136,14 +136,14 @@ Bedasarkan aturan-aturan tersebut, mari kita ulas lebih lanjut.
 
 #### _Components_
 
-Kamu pasti tahu apa itu _component_, tapi ada satu hal penting yang kamu harus dalam penyusunan ini yaitu kemampuan untuk menurunkan _component_ ke _component_ lain. _Component_ didefinisikan di _root_ proyek kamu, dalam folder _component_, atau didefinisikan secara global yang dapat digunakan dimanapun dalam aplikasi. Tapi jika kamu memutuskan untuk mendefinisikan _component_ baru didalam _component_ lain (_nesting_), _component_ baru ini hanya dapat digunakan melalui _parentnya_. 
+Kamu pasti tahu apa itu _component_, tapi ada satu hal penting yang kamu harus tahu dalam penyusunan ini yaitu kemampuan untuk menurunkan _component_ ke _component_ lain. _Component_ didefinisikan di _root_ proyek kamu, dalam folder _component_, atau didefinisikan secara global yang dapat digunakan dimanapun dalam aplikasi. Tapi jika kamu memutuskan untuk mendefinisikan _component_ baru didalam _component_ lain (_nesting_), _component_ baru ini hanya dapat digunakan melalui _parentnya_. 
 
 ##### Mengapa harus melakukan ini ?
 
-Ketika kamu mengembangkan aplikasi yang besar, ini cukup sering terjadi ketika kamu perlu membuat _component_ yang anda tahu pasti tidak akan digunakan kembali dimanapun, terkadang sewaktu - waktu dibutuhkan. Jika kamu menambahkannya ke tingkat _root_ folder _componentmu_, ini akan menghilangkan ratusan _component_.
-Tentu, kamu dapat mengelompokan itu, tapi ketika kamu mau melakukan penghapusan, kamu tidak akan ingat apakah semuanya atau ada yang masih ada digunakan di tempat lain. Meskipun, jika kamu mendefinisikan pada di tingkat _root component_ utama aplikasimu, seperti _button_, _form field_, _thumbnail_, atau yang lebih kompleks seperti _listComment_, _formComposer dengan kepunyaan _child component_ sendiri, ini akan jauh lebih mudah untuk menemukan apa yang kamu butuhkan.
+Ketika kamu mengembangkan aplikasi yang besar, ini sering terjadi ketika kamu perlu membuat _component_ yang pasti tidak akan digunakan kembali dimanapun, tapi terkadang sewaktu - waktu dibutuhkan. Jika kamu menambahkan di _root_ folder _componentmu_, ini akan menghilangkan _component_ didalamnya.
+Tentu kamu dapat mengelompokan itu, tapi ketika kamu mau menghapus suatu _component_,  mungkin kamu tidak akan ingat apakah _component_ ada yang masih digunakan di tempat lain atau tidak. Meskipun jika kamu mendefinisikan pada di tingkat _root component_ aplikasimu, seperti _Button_ dan _FormField_. Dari kasus tersebut ini akan jauh lebih mudah untuk menentukan apa yang kamu butuhkan.
 
-Contoh:
+Contoh :
 
 ```
 /src
@@ -159,15 +159,15 @@ Contoh:
       /reducer.js
 ```
 
-- _Button_ dapat digunakan dimana saja di dalam aplikasi.
-- _Notification_ dapat juga digunakan dimana saja. _Component_ ini mendeklrasikan _component ButtonDismiss_. Kamu tidak bisa menggunakan _ButtonDismiss_ dimanapun selain didalam _component Notifications_.
-- _Component ButtonDismiss_ menggunakan _Button_ secara internal, ini diotorisasi, karena _Button_ didefinisikan pada tingkat _root component_.
+- _Component Button_ dapat digunakan dimana saja di dalam aplikasi.
+- _Component Notification_ dapat juga digunakan dimana saja. _Component_ ini mendeklrasikan _component ButtonDismiss_. Kamu tidak bisa menggunakan _ButtonDismiss_ dimanapun selain didalam _component Notifications_.
+
 
 #### _Scenes_
 
-_Scene_ merupakan halaman aplikasi. Kamu dapat meletakan _scene_ sama seperti _component_, tapi saya lebih suka memisahkan itu kedalam folder. Jika kamu menggunakan [React Router](https://github.com/reactjs/react-router) atau [React Native Router](https://github.com/aksonov/react-native-router-flux), kamu dapat mengimpor semua scene di file index.js utama dan persiapkan file _route_.
+_Scene_ merupakan halaman aplikasi. Kamu dapat meletakan _scene_ sama seperti _component_, tapi saya lebih suka memisahkan itu kedalam folder. Jika kamu menggunakan [React Router](https://github.com/reactjs/react-router) atau [React Native Router](https://github.com/aksonov/react-native-router-flux), kamu dapat mengimpor semua _scene_ di file index.js utama dan menyiapkan file _routenya_.
 
-Dengan prinsip yang sama _component_ dapat juga diturunkan (_nested_), kamu juga dapat menurukan _scene_ kedalam _scene_, dan juga dapat mendefinisikan _component_ atau _service_ kedalam _scene_. Kamu harus ingat, jika kamu memutuskan untuk mendefinisikan sesuatu kedalam _scene_, kamu hanya dapat menggunakannya di dalam folder _scene_ itu sendiri.
+Dengan prinsip yang sama seperti _component_, itu juga dapat diturunkan (_nesting_), kamu juga dapat menurukan _scene_ kedalam _scene_, dan juga dapat mendefinisikan _component_ atau _service_ kedalam _scene_. Kamu harus ingat, jika kamu memutuskan untuk mendefinisikan sesuatu kedalam _scene_, kamu hanya dapat menggunakannya di dalam folder _scene_ itu sendiri.
 
 Contoh :
 
@@ -204,7 +204,7 @@ Contoh :
 
 #### _Services_
 
-Tidak semuanya dapat menjadi _component_, dan kamu perlu membuat modul tersendiri yang dapat digunakan di _component_ atau _scene_. Kamu dapat melihat _service_ seperti modul tersendiri, dimana kamu akan mendifinisikan _core business logic_ dari aplikasi. Ini pada akhirnya dapat dibagi di antara beberapa _scene_ atau bahkan aplikasi, seperti web dan versi aplikasi _native_.
+Tidak semuanya dapat menjadi _component_, dan kamu perlu membuat modul tersendiri yang dapat digunakan di _component_ atau _scene_. Kamu dapat melihat _service_ seperti modul tersendiri, dimana kamu akan mendifinisikan _logic core business_ dari aplikasi. Ini pada akhirnya dapat dibagi di antara beberapa _scene_ atau bahkan aplikasi keseluruhan.
 
 ~~~
 /src
@@ -221,11 +221,11 @@ Tidak semuanya dapat menjadi _component_, dan kamu perlu membuat modul tersendir
       /reducer.js
 ~~~
 
-Saya merekomendasikan untuk membuat _service_ untuk mengatur semua API _request_. Kamu dapat melihat itu sebagai _adapter_ antara server API dan _view layer_ (_scene dan component_) aplikasi. Itu dapat menjaga _call network_ aplikasi yang dibuat, _get_ dan _post_ konten, dan mengubah _payload_ yang dibutuhkan sebelum dikirim atau disimpan kedalam media penyimpanan aplikasi (seperti Redux). _Scene_ dan Komponen hanya akan mengirimkan _action_, membaca _store_ dan melakukan _update_ ketika ada perubahan.
+Saya merekomendasikan untuk membuat _service_ untuk mengatur semua API _request_. Kamu dapat melihat itu sebagai _adapter_ antara server API dan _view layer_ (_scene dan component_) aplikasi. Hal itu dapat menjaga _call network_ aplikasi yang dibuat seperti _get_ dan _post_ konten, atau mengubah _payload_ yang dibutuhkan sebelum dikirim atau disimpan kedalam _store_ aplikasi (seperti Redux). _Scene_ dan _Component_ hanya akan mengirimkan _action_, membaca _store_ dan melakukan _update_ ketika ada perubahan.
 
 #### Kesimpulan
 
-Saya telah mengimplementasikan denga struktur folder selam beberapa bulan terakhir pada proyek pribadi yang dibuat dengan React Native, dan membuat saya menghemat waktu. Dengan ini jauh lebih mudah untuk mendapatkan semua entitas terkait yang dikelompokan bersama, dan itu membuat semuanya lebih mudah dikerjakan. Struktur folder ini adalah salah satu dari banyak cara untuk mengatur proyek kamu. Dan ini, saya menyukainya sampai sekarang. Saya harap dengan ini dapat meningkatkan kinerjamu :blush:
+Saya telah mengimplementasikan dengan struktur folder ini selama beberapa bulan terakhir pada proyek pribadi yang dibuat dengan React Native, dan saya merasa lebih efisien dalam mengatur kodingan. Dan juga lebih mudah untuk mendapatkan semua entitas terkait yang dikelompokan, dan itu membuat semuanya lebih mudah dikerjakan. Struktur folder ini adalah salah satu dari banyak cara untuk mengatur aplikasi React. Dan ini membuat saya terus mengimplementasikan di proyek-proyek selanjutnya. Saya harap dengan ini kamu juga dapat meningkatkan efisiensi dalam membuat aplikasi menggunakan React :blush:
 
 
 
