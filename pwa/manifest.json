@@ -1,6 +1,6 @@
 {
-  "name": "bamsarts",
-  "short_name": "bamsarts | personal blog",
+  "name": "bamsarts | personal blog",
+  "short_name": "bamsarts",
   "description": "A personal blog by engineer",
   "icons": [{
     "src": "icons/bamsarts_128.png",
