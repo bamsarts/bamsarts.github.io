@@ -225,6 +225,8 @@ Saya merekomendasikan untuk membuat _service_ untuk mengatur semua API _request_
 
 Saya telah mengimplementasikan dengan struktur folder ini selama beberapa bulan terakhir pada proyek pribadi yang dibuat dengan React Native, dan saya merasa lebih efisien dalam mengatur kodingan. Dan juga lebih mudah untuk mendapatkan semua entitas terkait yang dikelompokan, dan itu membuat semuanya lebih mudah dikerjakan. Struktur folder ini adalah salah satu dari banyak cara untuk mengatur aplikasi React. Dan ini membuat saya terus mengimplementasikan di proyek-proyek selanjutnya. Saya harap dengan ini kamu juga dapat meningkatkan efisiensi dalam membuat aplikasi menggunakan React :blush:
 
+Jika kamu tertarik, saya memiliki contoh project yang mengikuti struktur folder tersebut
 
+- https://github.com/bamsarts/Batu-Gunting-Kertas
 
 
