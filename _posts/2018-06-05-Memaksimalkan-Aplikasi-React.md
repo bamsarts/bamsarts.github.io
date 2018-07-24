@@ -227,6 +227,6 @@ Saya telah mengimplementasikan dengan struktur folder ini selama beberapa bulan 
 
 Jika kamu tertarik, saya memiliki contoh project yang mengikuti struktur folder tersebut
 
-- https://github.com/bamsarts/Batu-Gunting-Kertas
+- (https://github.com/bamsarts/Batu-Gunting-Kertas)
 
 
