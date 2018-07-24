@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      Apakah React Native Layak dipelajari ?
-subtitle:   Layak atau tidak, pasti ada hikmahnya :)
+subtitle:   
 date:       2018-05-02
 author:     Bambang S
 header-img: img/Accenture-Full-Home.jpg
