@@ -5,7 +5,7 @@ subtitle:
 date:       2018-05-02
 author:     Bambang S
 header-img: img/Accenture-Full-Home.jpg
-catalog: true
+catalog: false
 tags:
     - reactjs
     - reactnative

@@ -5,7 +5,7 @@ subtitle:
 date:       2018-07-23
 author:     Bambang S
 header-img: img/post-2-header.jpg
-catalog: true
+catalog: false
 tags:
     - react
     - reactnative
