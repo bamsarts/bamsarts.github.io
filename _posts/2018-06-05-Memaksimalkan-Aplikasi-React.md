@@ -2,7 +2,7 @@
 layout:     post
 title:      Memaksimalkan Aplikasi React
 subtitle:   
-date:       2018-07-23
+date:       2018-05-06
 author:     Bambang S
 header-img: img/post-2-header.jpg
 catalog: false
