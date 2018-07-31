@@ -40,3 +40,27 @@ I hope my explanation of redux implementation in real application can be underst
 
 Whatever libraries or frameworks each developer needs two important things in the application that is displaying and managing data. Redux serves to manage data, while to display data you can use any library.
 Redux is the most popular library in react, but actually redux can be mixed with other libraries such as vue, angular, even the legendary jquery.
+
+The common challenge when creating app based component such as React, is handling communication between components. For example :
+
+- How to tell component B if component A has been clicked ?
+- How to change the contents of the table components, if there is a change in the filter component ?
+- How to communicate component with different parent ?
+
+Redux offers global state solutions. The way it works is simple, the state of each component is moved to a global state called _store_. This store will connect with components. And then, you only need to deal with their store, while redux that will handle communication between component and UI changes.
+
+![redux](https://bamsarts.github.io/img/redux.png)
+
+<p align="center">source : https://blog.codecentric.de</p>
+
+### What is the state ?
+
+Definition of state is context dependent, state is like the memory of application. This memory is used to store the status of the activity or execution of the application. For example :
+
+- User interaction such as click, scroll etc (event state)
+- Status of current page (location state)
+- User login or not (session state)
+- Data fetching from server
+- etc
+
+In the react component has a state. State makes application more dynamically.
