@@ -63,4 +63,12 @@ Definition of state is context dependent, state is like the memory of applicatio
 - Data fetching from server
 - etc
 
-In the react component has a state. State makes application more dynamically.
+In the react component has a state. State makes application more dynamically. Changes in each component are generally done by changing their status.
+
+### When is the right time to use redux on react ?
+
+Based on my experience, you should not rush immediately to learn redux, it is recomended to focus on react first. For communication between components, can use _callback, refs, context, and high order componen_. If you feel managing the state with it way too complicated, most likely you need redux.
+
+### How to learn Redux ?
+
+Best way to  open your teks editor / IDE and try the code, open Redux documentation, and keep up trial & error. 
