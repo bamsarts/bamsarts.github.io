@@ -63,7 +63,7 @@ Definition of state is context dependent, state is like the memory of applicatio
 - Data fetching from server
 - etc
 
-In the react component has a state. State makes application more dynamically. Changes in each component are generally done by changing their status.
+In the react component has a state. State makes application more dynamics. Changes in each component are generally done by changing their status.
 
 ### When is the right time to use redux on react ?
 
@@ -71,4 +71,10 @@ Based on my experience, you should not rush immediately to learn redux, it is re
 
 ### How to learn Redux ?
 
-Best way to  open your teks editor / IDE and try the code, open Redux documentation, and keep up trial & error. 
+The Best way to  open your teks editor / IDE and try the code, open Redux documentation, and keep up trial & error. To be more effective, here are step by step suggested to learn redux :
+
+- Functional Programmin is a must to un. at least you have basic functional programming knowledge before trying redux further. No need to have to understand it deeply, just understand _pure function, map, filter, reduce, high order function_. I think that's enough, you can deepen it later.
+- Understand _mutable and immutable state_.
+- Begin to learn how redux works such as _reducer, action, dispatch_. Three things that are definitely in redux. The most challenging part of redux is _reducer_, functional programming knowledge will be helpful here.
+- Understand how _container component and presentational component_ works.
+- Understand how redux middleware works.
