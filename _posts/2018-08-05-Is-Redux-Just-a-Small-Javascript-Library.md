@@ -2,7 +2,7 @@
 layout:     post
 title:      Is Redux Just a Small Javascript Library ?
 subtitle:   
-date:       2018-06-25
+date:       2018-08-05
 author:     Bambang S
 header-img: img/library.jpg
 catalog: false
@@ -71,10 +71,11 @@ Based on my experience, you should not rush immediately to learn redux, it is re
 
 ### How to learn Redux ?
 
-The Best way to  open your teks editor / IDE and try the code, open Redux documentation, and keep up trial & error. To be more effective, here are step by step suggested to learn redux :
+The Best way to open your teks editor / IDE and try the code, open Redux documentation, and keep up trial & error. To be more effective, here are step by step suggested to learn redux :
 
-- Functional Programmin is a must to un. at least you have basic functional programming knowledge before trying redux further. No need to have to understand it deeply, just understand _pure function, map, filter, reduce, high order function_. I think that's enough, you can deepen it later.
+- Functional Programming is a must to understand. at least you have basic functional programming knowledge before trying redux further. No need to have to understand it deeply, just understand _pure function, map, filter, reduce, high order function_. I think that's enough, you can deepen it later.
 - Understand _mutable and immutable state_.
 - Begin to learn how redux works such as _reducer, action, dispatch_. Three things that are definitely in redux. The most challenging part of redux is _reducer_, functional programming knowledge will be helpful here.
 - Understand how _container component and presentational component_ works.
-- Understand how redux middleware works.
+- Understand how redux middleware works. With middleware, it can make redux more powerfull for example adding error log, async process, etc.
+- Understand how async on redux works. For the start, its enough to use redux-thunk middleware. After getting used to, you can exlore _Redux Saga_, Observable, or Redux Promise Middleware_. In these case you already have basic async programming.
