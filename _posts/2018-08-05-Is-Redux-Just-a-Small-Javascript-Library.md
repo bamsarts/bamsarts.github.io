@@ -78,4 +78,4 @@ The Best way to open your teks editor / IDE and try the code, open Redux documen
 - Begin to learn how redux works such as _reducer, action, dispatch_. Three things that are definitely in redux. The most challenging part of redux is _reducer_, functional programming knowledge will be helpful here.
 - Understand how _container component and presentational component_ works.
 - Understand how redux middleware works. With middleware, it can make redux more powerfull for example adding error log, async process, etc.
-- Understand how async on redux works. For the start, its enough to use redux-thunk middleware. After getting used to, you can exlore _Redux Saga_, Observable, or Redux Promise Middleware_. In these case you already have basic async programming.
+- Understand how async on redux works. For the start, its enough to use redux-thunk middleware. After getting used to, you can explore _Redux Saga, Observable, or Redux Promise Middleware_. In these case you already have basic async programming.
