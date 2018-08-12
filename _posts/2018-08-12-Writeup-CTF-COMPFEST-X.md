@@ -17,7 +17,7 @@ tags:
 ![Hash Math](https://bamsarts.github.io/img/hash.png)
 
 
-Diberikan file [contestant.py]('https://github.com/bamsarts/CTF-COMPFEST-X/') yang diberi integer N dan M dan harus mencari _hash collision_ nya dengan string N dan modulo M. Pada file yang diberikan terdapat hal menarik pada fungsi hatching() yaitu 
+Diberikan file [contestant.py]('https://ctf.compfest.web.id/files/53ec223d4fb964f055ce624d5fc9e830/contestant.py') yang diberi integer N dan M dan harus mencari _hash collision_ nya dengan string N dan modulo M. Pada file yang diberikan terdapat hal menarik pada fungsi hatching() yaitu 
 
 ```python
 ret = 26 * ret + ord(x) - ord('a')
