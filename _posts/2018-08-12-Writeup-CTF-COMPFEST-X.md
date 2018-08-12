@@ -4,7 +4,7 @@ title:      Writeup CTF COMPFEST X
 subtitle:   
 date:       2018-08-12
 author:     Bambang S
-header-img: img/library.jpg
+header-img: img/ctf.jpg
 catalog: false
 tags:
     - Pwn
@@ -361,6 +361,6 @@ print "Flag: {}".format(flag)
 
 kemudian running program 
 
-![z3 solver]('https://bamsarts.github.io/img/z3-solver.png')
+![z3solver](https://bamsarts.github.io/img/z3-solver.png)
 
-Voila :tara: dapat flag : **CTFX{linear_algebra_1s_1mport4nt_for_your_life_and_college_}**
+Voila :tada: dapat flag : **CTFX{linear_algebra_1s_1mport4nt_for_your_life_and_college_}**
