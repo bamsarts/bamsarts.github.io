@@ -14,4 +14,6 @@ tags:
 
 Saya tidak tahu berapa usia kamu tapi sebagai seorang yang telah lahir di tahun 90an, saya ingat kemajuan dan kemunduran firefox dari berbagi aspek. Firefox muncul sebagai _open source_ kompetitor terhadap Internet Explorer 6. Jika dibandingan dengan Internet explorer 6, Firefox memiliki kelebihan yaitu, pengguna dapat menambahkan fitur dengan berbagai ekstensi dan bisa mengganti tampilan tema. Semua orang menyukainya.
 
-Beberapa tahun kemudian, ada pemain baru datang yaitu Chrome. Chrome datang dan terus meroket, dengan cepat melampaui kompetitor. Dan faktanya, Chrome telah banyak digunakan oleh banyak orang, dalam waktu yang singkat, Chrome menjadi salah satu diantara produk Google yang paling berharga.
+Beberapa tahun kemudian, ada pemain baru datang yaitu Chrome. Chrome datang dan terus meroket, dengan cepat melampaui kompetitor. Dan faktanya, Chrome telah banyak digunakan oleh banyak orang, dalam waktu yang singkat, Chrome menjadi salah satu diantara produk Google yang paling berharga. Saya yakin kamu membaca artikel ini dengan browser chrome :smirk:
+
+Sebagai developer, saya tahu betapa sulitnya untuk menyenangkan pengguna. Dan dengan perkembangan teknologi web yang semakin kompleks, aplikasi dan perangkat lunak pada umumnya bermasalah pada tingginya penggunaan RAM dan CPU ketika diawal-awal.
