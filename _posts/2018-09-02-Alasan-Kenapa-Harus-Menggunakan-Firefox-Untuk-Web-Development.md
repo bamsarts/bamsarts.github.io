@@ -25,3 +25,11 @@ Pada tahun 2017, Firefox Quantum dirilis untuk pengguna Android, Linux, IOS, Mac
 <iframe width="620" height="415" src="http://www.youtube.com/embed/YIywpvHewc0" frameborder="0" allowfullscreen></iframe>
 
 Setelah 10 tahun di industri, Mozilla harus mencari cara untuk membedakan Firefox dari kompetitor tanpa kehilangan powernya. Jadi, untuk mengambil keuntungan Firefox menguatkan di pemrosesan komputer, hampir 4 juta baris kode ditulis ulang dengan bantuan teknologi andalanya yaitu [servo](https://servo.org/), [Rust](https://www.rust-lang.org/en-US/), [Quantum Stylo](https://wiki.mozilla.org/Quantum/Stylo).
+
+Menurut pendapat saya, Firefox Qunatum memiliki performa yang bagus jika dibandingkan dengan browser yang lainnya. Dan ini alasannya..
+
+### Teknologi Terbaru
+
+#### Web Assembly
+
+Menjalankan aplikasi yang besar, cepat, atau aplikasi online yang kompleks merupakan impian kebanyakan developer. Selain itu dengan peningkatan teknologi terkini seperti foto dan video editing, 3D game editing, dan VR/AR, espektasi pengguna online meningkat secara signifikan.
