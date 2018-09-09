@@ -18,7 +18,9 @@ Beberapa tahun kemudian, ada pemain baru datang yaitu Chrome. Chrome datang dan 
 
 Sebagai developer, saya tahu betapa sulitnya untuk menyenangkan pengguna. Dan juga dengan perkembangan teknologi web yang semakin kompleks, aplikasi dan perangkat lunak pada umumnya bermasalah pada tingginya penggunaan RAM dan CPU ketika diawal-awal. Hal itu mungkin kamu berpikir untuk beralih ke browser selain Chrome.
 
-{% twitter https://twitter.com/firefox/status/930435170288656384 %}
+<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Close to 7 million lines of changed code later and we present the BRAND NEW FIREFOX.<br><br>Fast, fierce &amp; for good.<a href="https://t.co/jNYcP3XFMy">https://t.co/jNYcP3XFMy</a></p>&mdash; Firefox 🔥 (@firefox) <a href="https://twitter.com/firefox/status/930435170288656384?ref_src=twsrc%5Etfw">November 14, 2017</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 
 Pada tahun 2017, Firefox Quantum dirilis untuk pengguna Android, Linux, IOS, Mac dan Windows. Lebih dari satu dekade setelah Mozilla merilis edisi pertama Firefox yang ikonik. Selain mendapatkan tampilan yang lebih modern, dirumorkan dapat memuat website dua kali lebih cepat daripada Firefox 6 dan juga menggunakan 30% lebih sedikit memori daripada Chrome.
 
