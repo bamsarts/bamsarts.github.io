@@ -33,6 +33,12 @@ Menurut pendapat saya, Firefox Qunatum memiliki performa yang bagus jika dibandi
 
 ### Teknologi Terbaru
 
-#### Web Assembly
+#### [Web Assembly]('https://developer.mozilla.org/en-US/docs/WebAssembly')
 
-Menjalankan aplikasi yang besar, cepat, atau aplikasi online yang kompleks merupakan impian kebanyakan developer. Selain itu dengan peningkatan teknologi terkini seperti foto dan video editing, 3D game editing, dan VR/AR, espektasi pengguna online meningkat secara signifikan.
+Menjalankan aplikasi yang besar, cepat, atau aplikasi online yang kompleks merupakan impian kebanyakan developer. Selain itu dengan peningkatan teknologi terkini seperti foto dan video editing, 3D game editing, dan VR/AR, espektasi pengguna online meningkat secara signifikan. _Javascript Engine_ seperti Google V8, Mozilla SpiderMonkey dan Microsoft Chakra telah dikembangkan untuk mendapatkan performa yang cepat untuk operasional.
+
+Sampai saat ini, hal ini juga mendatangkan kemungkinan untuk menjalankan Unity dan Unreal Game Engine didalam Firefox. Dan sekarang, Browser lainnya juga telah memberikan dukungan juga.
+
+### [A-Frame dan WebVR]('https://aframe.io/')
+
+Salah satu hal inovasi terbaru yaitu Virtual Reality atau bisa disebut VR. Dengan perangkat _smartphone_, browser, dan produk seperti Oculus Rift dan HTC Vive, untuk perangkat lain juga terus dibuat. Mozilla telah menjadi pemain di bidang pengembangan infrastruktur WebVR, tapi juga bekerja keras untuk terus meningkatkan performa browsernya. Terima kasih Mozilla telah mensupport A-Frame, salah satu framework yang baik dalam membuat WebVR.
