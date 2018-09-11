@@ -2,7 +2,7 @@
 layout:     post
 title:      Alasan Kenapa Harus Menggunakan Firefox Untuk Web Development
 subtitle:   
-date:       2018-09-02
+date:       2018-09-11
 author:     Bambang S
 header-img: img/firefox.png
 catalog: false
@@ -39,6 +39,16 @@ Menjalankan aplikasi yang besar, cepat, atau aplikasi online yang kompleks merup
 
 Sampai saat ini, hal ini juga mendatangkan kemungkinan untuk menjalankan Unity dan Unreal Game Engine didalam Firefox. Dan sekarang, Browser lainnya juga telah memberikan dukungan juga.
 
-### [A-Frame dan WebVR]('https://aframe.io/')
+#### [A-Frame dan WebVR]('https://aframe.io/')
 
 Salah satu hal inovasi terbaru yaitu Virtual Reality atau bisa disebut VR. Dengan perangkat _smartphone_, browser, dan produk seperti Oculus Rift dan HTC Vive, untuk perangkat lain juga terus dibuat. Mozilla telah menjadi pemain di bidang pengembangan infrastruktur WebVR, tapi juga bekerja keras untuk terus meningkatkan performa browsernya. Terima kasih Mozilla telah mensupport A-Frame, salah satu framework yang baik dalam membuat WebVR.
+
+#### [_Project Common Voice_]('https://voice.mozilla.org/en/new')
+
+Apple Siri, Microsoft Cortana, Amazon Echo, dan Google Home semuanya mengadopsi _close source_ untuk teknologi _speech recognigtion_ yang dapat mengenal perintah dari suara. Dan apa yang terjadi ? Mozilla sekarang merilis _Common Voice_, sebuah inisiasi _open source_ untuk membuat _voice recognition_ dan tersedia untuk siapapun.
+
+Siapapun dapat berkontribusi untuk _Common Voice_ dengan membaca kalimat dengan suara keras dan mengajarkan isyarat / petunjuk ke mesin. Kamu dapat juga memverifikasi transkrip dari _common voice_ untuk memastikan _recognition engine_ benar pada tracknya.
+
+#### [_Firefox Devtools_]('https://mozilladevelopers.github.io/playground/')
+
+Mengikuti perubahan didalam Firefox saya sebutkan diatas, kamu mungkin tidak terkejut untuk mendengar banyak perbaikan yang telah dibuat untuk _DevTools_. Debugger.html salah satunya.
