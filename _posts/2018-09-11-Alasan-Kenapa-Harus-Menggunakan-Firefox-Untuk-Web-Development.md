@@ -33,22 +33,37 @@ Menurut pendapat saya, Firefox Qunatum memiliki performa yang bagus jika dibandi
 
 ### Teknologi Terbaru
 
-#### [Web Assembly]('https://developer.mozilla.org/en-US/docs/WebAssembly')
+#### [Web Assembly](https://developer.mozilla.org/en-US/docs/WebAssembly)
 
 Menjalankan aplikasi yang besar, cepat, atau aplikasi online yang kompleks merupakan impian kebanyakan developer. Selain itu dengan peningkatan teknologi terkini seperti foto dan video editing, 3D game editing, dan VR/AR, espektasi pengguna online meningkat secara signifikan. _Javascript Engine_ seperti Google V8, Mozilla SpiderMonkey dan Microsoft Chakra telah dikembangkan untuk mendapatkan performa yang cepat untuk operasional.
 
 Sampai saat ini, hal ini juga mendatangkan kemungkinan untuk menjalankan Unity dan Unreal Game Engine didalam Firefox. Dan sekarang, Browser lainnya juga telah memberikan dukungan juga.
 
-#### [A-Frame dan WebVR]('https://aframe.io/')
+#### [A-Frame dan WebVR](https://aframe.io/)
 
 Salah satu hal inovasi terbaru yaitu Virtual Reality atau bisa disebut VR. Dengan perangkat _smartphone_, browser, dan produk seperti Oculus Rift dan HTC Vive, untuk perangkat lain juga terus dibuat. Mozilla telah menjadi pemain di bidang pengembangan infrastruktur WebVR, tapi juga bekerja keras untuk terus meningkatkan performa browsernya. Terima kasih Mozilla telah mensupport A-Frame, salah satu framework yang baik dalam membuat WebVR.
 
-#### [_Project Common Voice_]('https://voice.mozilla.org/en/new')
+#### [_Project Common Voice_](https://voice.mozilla.org/en/new)
 
 Apple Siri, Microsoft Cortana, Amazon Echo, dan Google Home semuanya mengadopsi _close source_ untuk teknologi _speech recognigtion_ yang dapat mengenal perintah dari suara. Dan apa yang terjadi ? Mozilla sekarang merilis _Common Voice_, sebuah inisiasi _open source_ untuk membuat _voice recognition_ dan tersedia untuk siapapun.
 
 Siapapun dapat berkontribusi untuk _Common Voice_ dengan membaca kalimat dengan suara keras dan mengajarkan isyarat / petunjuk ke mesin. Kamu dapat juga memverifikasi transkrip dari _common voice_ untuk memastikan _recognition engine_ benar pada tracknya.
 
-#### [_Firefox Devtools_]('https://mozilladevelopers.github.io/playground/')
+#### [_Firefox Devtools_](https://mozilladevelopers.github.io/playground/)
 
 Mengikuti perubahan didalam Firefox saya sebutkan diatas, kamu mungkin tidak terkejut untuk mendengar banyak perbaikan yang telah dibuat untuk _DevTools_. Debugger.html salah satunya.
+
+### _General - Inspect Tool_
+
+#### Ganti Tema
+
+![Change Theme](https://bamsarts.github.io/img/devtools.gif)
+
+_Developer tool_ baru hadir dengan tiga opsi tema yang berbeda yaitu, _dark_, _clear_, dan _Firebug_._Firebug tool_ yang cukup populer sekarang masih digunakan oleh banyak orang, meskipun pengembangannya telah terhenti. Bahkan ada pos blog untuk membandingkan penggunaan warna, yang bisa dilihat di [Firefox Nightly News](https://blog.nightly.mozilla.org/2017/09/11/developer-tools-visual-refresh-coming-to-nightly/)
+
+
+#### _CSS Grid_
+
+![CSS Grid](https://bamsarts.github.io/img/cssgrid.gif)
+
+Satu diantara inovasi terbaru didalam CSS yaitu CSS _Grid Layout_. Dengan _DevTools_, kamu dapat melihat "display:grid" di elemen. Kamu juga dapat dengan mudah mengaktifkan atau menonaktifkan fitur seperti _line numbers, area names, atau extend lines infinitely_.
