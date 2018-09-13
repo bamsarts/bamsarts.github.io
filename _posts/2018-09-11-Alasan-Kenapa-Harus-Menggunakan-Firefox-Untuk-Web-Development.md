@@ -66,4 +66,10 @@ _Developer tool_ baru hadir dengan tiga opsi tema yang berbeda yaitu, _dark_, _c
 
 ![CSS Grid](https://bamsarts.github.io/img/cssgrid.gif)
 
-Satu diantara inovasi terbaru didalam CSS yaitu CSS _Grid Layout_. Dengan _DevTools_, kamu dapat melihat "display:grid" di elemen. Kamu juga dapat dengan mudah mengaktifkan atau menonaktifkan fitur seperti _line numbers, area names, atau extend lines infinitely_.
+Satu diantara inovasi terbaru didalam CSS yaitu CSS _Grid Layout_. Dengan _DevTools_, kamu dapat melihat "display:grid" di elemen. Kamu juga dapat dengan mudah mengaktifkan atau menonaktifkan fitur seperti _line numbers, area names, atau extend lines infinitely_. Untuk lebih lanjut bisa kunjungi [https://hacks.mozilla.org/2017/06/new-css-grid-layout-panel-in-firefox-nightly/](https://hacks.mozilla.org/2017/06/new-css-grid-layout-panel-in-firefox-nightly/)
+
+#### BOX Model
+
+![CSS Grid](https://bamsarts.github.io/img/cssgrid.gif)
+
+Nilai margin dan padding didalam elemen dapat sewaktu-waktu seperti puzzle. Dengan struktur box model, kamu dapat dengan mudah melihat dan mengganti seberapa banyak ruang yang terisi dengan properti seperti _margin, padding, dan border_. Untuk lebih lanjut bisa kunjungi [https://developer.mozilla.org/en-US/docs/Learn/CSS/Introduction_to_CSS/Box_model](https://developer.mozilla.org/en-US/docs/Learn/CSS/Introduction_to_CSS/Box_model)
