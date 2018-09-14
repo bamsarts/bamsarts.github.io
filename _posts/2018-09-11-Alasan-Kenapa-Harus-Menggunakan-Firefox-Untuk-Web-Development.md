@@ -73,3 +73,9 @@ Satu diantara inovasi terbaru didalam CSS yaitu CSS _Grid Layout_. Dengan _DevTo
 ![CSS Grid](https://bamsarts.github.io/img/cssgrid.gif)
 
 Nilai margin dan padding didalam elemen dapat sewaktu-waktu seperti puzzle. Dengan struktur box model, kamu dapat dengan mudah melihat dan mengganti seberapa banyak ruang yang terisi dengan properti seperti _margin, padding, dan border_. Untuk lebih lanjut bisa kunjungi [https://developer.mozilla.org/en-US/docs/Learn/CSS/Introduction_to_CSS/Box_model](https://developer.mozilla.org/en-US/docs/Learn/CSS/Introduction_to_CSS/Box_model)
+
+#### CSS Variable
+
+![CSS Variables](https://bamsarts.github.io/img/cssVariabale.gif)
+
+Inovasi CSS lainnya yaitu mengenalkan variabel. Meskipun belum semua browser mendukungya, penggunaannya pasti akan meningkat setiap waktu. Seperti namanya, kamu dapat menetapkan apapun nilainya ke variabel. Ingin mengecek berapa nilainya ? caranya mudah cukup menghover mouse ke objeknya. Untuk lebih lanjut bisa kunjungi [https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_variables](https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_variables)
