@@ -2,7 +2,7 @@
 layout:     post
 title:      Alasan Kenapa Harus Menggunakan Firefox Untuk Web Development
 subtitle:   
-date:       2018-09-11
+date:       2018-09-15
 author:     Bambang S
 header-img: img/firefox.png
 catalog: false
@@ -76,7 +76,7 @@ Nilai margin dan padding didalam elemen dapat sewaktu-waktu seperti puzzle. Deng
 
 #### CSS Variable
 
-![CSS Variables](https://bamsarts.github.io/img/cssVariabale.gif)
+![CSS Variables](https://bamsarts.github.io/img/cssVaribale.gif)
 
 Inovasi CSS lainnya yaitu mengenalkan variabel. Meskipun belum semua browser mendukungya, penggunaannya pasti akan meningkat setiap waktu. Seperti namanya, kamu dapat menetapkan apapun nilainya ke variabel. Ingin mengecek berapa nilainya ? caranya mudah cukup menghover mouse ke objeknya. Untuk lebih lanjut bisa kunjungi [https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_variables](https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_variables)
 
@@ -101,3 +101,23 @@ Ketika kamu menginpect elemen, kamu dapat juga melihat jenis font yang digunakan
 ![Animasi](https://bamsarts.github.io/img/animasi.gif)
 
 Animasi merupakan pengembangan populer lainnya. Kamu dapat menjalankan animasi secara perlahan, mempercepat, bahkan mengentikannya.
+
+### Console
+
+#### Console Log
+
+![Console Log](https://bamsarts.github.io/img/console.gif)
+
+Ketika saya pindah ke bagian _console_, kamu dapat dengan mudah memeriksa objek. Plus, struktur keynya yang dapat dengan mudah menseleksi objeknya dan menyembunyikannya.
+
+#### Console.group
+
+![Console Group](https://bamsarts.github.io/img/consoleGroup.gif)
+
+Tahukah kamu, bahwa kamu dapat membuat event lebih teratur dan mudah dibaca dengan console.group() dan groupCollapsed()
+
+#### Breakpoint
+
+![Breakpoint](https://bamsarts.github.io/img/breakpoint.gif)
+
+Alat yang bagus untuk _javascript debugging_ yang sangat diperlukan. Dengan _breakpoint_, kamu dengan cepat menyisipkan _breakpoint_ dan memeriksa _scope_ secara detail.
