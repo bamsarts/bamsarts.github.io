@@ -121,3 +121,27 @@ Tahukah kamu, bahwa kamu dapat membuat event lebih teratur dan mudah dibaca deng
 ![Breakpoint](https://bamsarts.github.io/img/breakpoint.gif)
 
 Alat yang bagus untuk _javascript debugging_ yang sangat diperlukan. Dengan _breakpoint_, kamu dengan cepat menyisipkan _breakpoint_ dan memeriksa _scope_ secara detail.
+
+#### _Source Maps_
+
+![Source Maps](https://bamsarts.github.io/img/sourceMap.gif)
+
+SCSS, WebAssembly, TypeScript, dan Babel merupakan _Javascript_ atau _CSS Transpiler_ yang paling populer saat ini. Akibatnya, struktur kode berakhir di dalam _browser_ yang sering diproses kedalam sesuatu yang berbeda dari versi originalnya _source code_ nya. Denga demikian, kamu dapat fokus bekerja ke file _source code_ aslinya, dengan menggunakan _source maps_.
+
+#### _Project Search & Function Search_
+
+![Function Search](https://bamsarts.github.io/img/functionSearch.gif)
+
+Satu satu cara terbaik untuk menemukan kesalahan adalah dengan mencari dari semua file yang dimiliki.
+
+#### _Style Editor_
+
+![Style Editor](https://bamsarts.github.io/img/styleEditor.gif)
+
+Di dalam editor kamu dapat melihat apapun yang kamu tulis untuk CSS, seperti apa yang kamu gunakan di _breakpoint_.
+
+#### Performa
+
+![Performa](https://bamsarts.github.io/img/performa.gif)
+
+Untuk memastikan bahwa render halaman website secara cepat dan lancar, terutama ketika ada proses animasi, aturan 60 fps tidak boleh dilupakan. Dengan ini, kamu dapat memantau berapa lama setiap _frame_ dibutuhkan untuk kemudian ditampilkan.
