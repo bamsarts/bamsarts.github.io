@@ -145,3 +145,19 @@ Di dalam editor kamu dapat melihat apapun yang kamu tulis untuk CSS, seperti apa
 ![Performa](https://bamsarts.github.io/img/performa.gif)
 
 Untuk memastikan bahwa render halaman website secara cepat dan lancar, terutama ketika ada proses animasi, aturan 60 fps tidak boleh dilupakan. Dengan ini, kamu dapat memantau berapa lama setiap _frame_ dibutuhkan untuk kemudian ditampilkan.
+
+#### Network Monitor
+
+![Network Monnitor](https://bamsarts.github.io/img/networkMonitor.gif)
+
+CSS, Javascript, gambar dan banyak aset lainnya yang dimuat melalui _network monitor_ sehingga halaman dapat intrerpretasikan dan ditampilkan dengan benar di _browser_. Kamu dapat menggunakan bagian ini secara spesifik untuk menguji performa web. Memantau status _file_, berapa lama waktu yang diperlukan ketikan mengunggah, dan apakah proses yang dilakukan berhasil atau tidak.
+
+#### Storage
+
+![Storage](https://bamsarts.github.io/img/storage.gif)
+
+_Cookies_ atau _local storage_ digunakan untuk menyimpan informasi mengenai pengguna ketika pengguna mengunjungi website kamu. Pada bagian ini, memberikan kamu kesempatan untuk memeriksa, mengedit, menambahkan atau menghapus informasi ini.
+
+### Kesimpulan
+
+Bisnis model perusahaan besar bergantung kepada pengguna yang beralih dari produk pihak ketiga lainnya, oleh karena itu pengguna harus dijaga agar tidak beralih ke produk yang lain. Sebagai contoh, jika kamu menginginkan untuk menonton presentasi _Apple Keynote_ di dalam web, kamu hanya dapat membuka halaman webnya melalui safari.
