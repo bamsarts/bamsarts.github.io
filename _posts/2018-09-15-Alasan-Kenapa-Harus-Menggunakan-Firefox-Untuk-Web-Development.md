@@ -12,11 +12,11 @@ tags:
     - Javascript
 ---
 
-Saya tidak tahu berapa usia kamu tapi sebagai seorang yang telah lahir di tahun 90an, saya ingat kemajuan dan kemunduran firefox dari berbagi aspek. Firefox muncul sebagai _open source_ kompetitor terhadap Internet Explorer 6. Jika dibandingan dengan Internet explorer 6, Firefox memiliki kelebihan yaitu, pengguna dapat menambahkan fitur dengan berbagai ekstensi dan bisa mengganti tampilan tema. Semua orang menyukainya.
+Saya tidak tahu berapa usia kamu tapi sebagai seseorang yang telah lahir di tahun 90an, saya ingat kemajuan dan kemunduran firefox dari berbagi aspek. Firefox muncul sebagai _open source_ kompetitor terhadap Internet Explorer 6. Jika dibandingan dengan Internet explorer 6, Firefox memiliki kelebihan yaitu, pengguna dapat menambahkan fitur dengan berbagai ekstensi dan bisa mengganti tampilan tema. Hal itu membuat orang menyukainya.
 
-Beberapa tahun kemudian, ada pemain baru datang yaitu Chrome. Chrome datang dan terus meroket, dengan cepat melampaui kompetitor. Dan faktanya, Chrome telah banyak digunakan oleh banyak orang, dalam waktu yang singkat, Chrome menjadi salah satu diantara produk Google yang paling berharga. Saya yakin kamu membaca artikel ini dengan browser chrome :smirk:
+Beberapa tahun kemudian, muncul pemain baru datang yaitu Chrome. Chrome datang dan terus meroket, dengan cepat melampaui kompetitor. Dan faktanya, Chrome telah banyak digunakan oleh banyak orang dalam waktu yang singkat, Chrome menjadi salah satu diantara produk Google yang paling berharga. Saya yakin kamu membaca artikel ini dengan browser chrome :smirk:
 
-Sebagai developer, saya tahu betapa sulitnya untuk menyenangkan pengguna. Dan juga dengan perkembangan teknologi web yang semakin kompleks, aplikasi dan perangkat lunak pada umumnya bermasalah pada tingginya penggunaan RAM dan CPU ketika diawal-awal. Hal itu mungkin kamu berpikir untuk beralih ke browser selain Chrome.
+Sebagai _developer_, saya tahu betapa sulitnya untuk menyenangkan pengguna. Dan juga dengan perkembangan teknologi web yang semakin kompleks, aplikasi yang dijalankan sering kali bermasalah pada tingginya penggunaan RAM dan CPU ketika diawal-awal. Hal itu mungkin kamu berpikir untuk beralih ke browser selain Chrome.
 
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Close to 7 million lines of changed code later and we present the BRAND NEW FIREFOX.<br><br>Fast, fierce &amp; for good.<a href="https://t.co/jNYcP3XFMy">https://t.co/jNYcP3XFMy</a></p>&mdash; Firefox 🔥 (@firefox) <a href="https://twitter.com/firefox/status/930435170288656384?ref_src=twsrc%5Etfw">November 14, 2017</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
@@ -27,27 +27,21 @@ Pada tahun 2017, Firefox Quantum dirilis untuk pengguna Android, Linux, IOS, Mac
 <iframe width="560" height="315" src="https://www.youtube.com/embed/YIywpvHewc0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 
-Setelah 10 tahun di industri, Mozilla harus mencari cara untuk membedakan Firefox dari kompetitor tanpa kehilangan powernya. Jadi, untuk mengambil keuntungan Firefox menguatkan di pemrosesan komputer, hampir 4 juta baris kode ditulis ulang dengan bantuan teknologi andalanya yaitu [servo](https://servo.org/), [Rust](https://www.rust-lang.org/en-US/), [Quantum Stylo](https://wiki.mozilla.org/Quantum/Stylo).
-
-Menurut pendapat saya, Firefox Qunatum memiliki performa yang bagus jika dibandingkan dengan browser yang lainnya. Dan ini alasannya..
+Setelah 10 tahun di industri, Mozilla terus mencari cara untuk membedakan Firefox dari kompetitor tanpa kehilangan powernya. Jadi, untuk mengambil keuntungan Firefox menguatkan di pemrosesan komputer, hampir 4 juta baris kode ditulis ulang dengan bantuan teknologi andalanya yaitu [servo](https://servo.org/), [Rust](https://www.rust-lang.org/en-US/), [Quantum Stylo](https://wiki.mozilla.org/Quantum/Stylo). Menurut pendapat saya, Firefox Qunatum memiliki performa yang bagus jika dibandingkan dengan browser yang lainnya. Dan ini alasannya..
 
 ### Teknologi Terbaru
 
 #### [Web Assembly](https://developer.mozilla.org/en-US/docs/WebAssembly)
 
-Menjalankan aplikasi yang besar, cepat, atau aplikasi online yang kompleks merupakan impian kebanyakan developer. Selain itu dengan peningkatan teknologi terkini seperti foto dan video editing, 3D game editing, dan VR/AR, espektasi pengguna online meningkat secara signifikan. _Javascript Engine_ seperti Google V8, Mozilla SpiderMonkey dan Microsoft Chakra telah dikembangkan untuk mendapatkan performa yang cepat untuk operasional.
-
-Sampai saat ini, hal ini juga mendatangkan kemungkinan untuk menjalankan Unity dan Unreal Game Engine didalam Firefox. Dan sekarang, Browser lainnya juga telah memberikan dukungan juga.
+Menjalankan aplikasi yang besar, cepat, atau aplikasi online yang kompleks merupakan impian kebanyakan developer. Selain itu dengan peningkatan teknologi terkini seperti foto dan video editing, 3D game editing, dan VR/AR, espektasi pengguna online meningkat secara signifikan. _Javascript Engine_ seperti Google V8, Mozilla SpiderMonkey dan Microsoft Chakra telah dikembangkan untuk mendapatkan performa yang cepat untuk operasional. Sampai saat ini, hal ini juga mendatangkan kemungkinan untuk menjalankan Unity dan Unreal Game Engine didalam Firefox. Dan sekarang, Browser lainnya juga telah memberikan dukungan.
 
 #### [A-Frame dan WebVR](https://aframe.io/)
 
-Salah satu hal inovasi terbaru yaitu Virtual Reality atau bisa disebut VR. Dengan perangkat _smartphone_, browser, dan produk seperti Oculus Rift dan HTC Vive, untuk perangkat lain juga terus dibuat. Mozilla telah menjadi pemain di bidang pengembangan infrastruktur WebVR, tapi juga bekerja keras untuk terus meningkatkan performa browsernya. Terima kasih Mozilla telah mensupport A-Frame, salah satu framework yang baik dalam membuat WebVR.
+Salah satu hal inovasi terbaru yaitu Virtual Reality atau bisa disebut VR. Dengan perangkat _smartphone_, browser, dan produk seperti Oculus Rift dan HTC Vive, untuk perangkat lain juga terus dibuat. Mozilla telah menjadi pemain di bidang pengembangan infrastruktur WebVR, tapi juga bekerja keras untuk terus meningkatkan performa browsernya. Terima kasih Mozilla telah mensupport A-Frame, salah satu framework dalam membuat WebVR.
 
 #### [_Project Common Voice_](https://voice.mozilla.org/en/new)
 
-Apple Siri, Microsoft Cortana, Amazon Echo, dan Google Home semuanya mengadopsi _close source_ untuk teknologi _speech recognigtion_ yang dapat mengenal perintah dari suara. Dan apa yang terjadi ? Mozilla sekarang merilis _Common Voice_, sebuah inisiasi _open source_ untuk membuat _voice recognition_ dan tersedia untuk siapapun.
-
-Siapapun dapat berkontribusi untuk _Common Voice_ dengan membaca kalimat dengan suara keras dan mengajarkan isyarat / petunjuk ke mesin. Kamu dapat juga memverifikasi transkrip dari _common voice_ untuk memastikan _recognition engine_ benar pada tracknya.
+Apple Siri, Microsoft Cortana, Amazon Echo, dan Google Home semuanya mengadopsi _close source_ untuk teknologi _speech recognigtion_ yang dapat mengenal perintah dari suara. Dan apa yang terjadi ? Mozilla sekarang merilis _Common Voice_, sebuah inisiasi _open source_ untuk membuat _voice recognition_ dan tersedia untuk siapapun. Semua orang dapat berkontribusi untuk _Common Voice_ dengan membaca kalimat dengan suara keras dan mengajarkan isyarat / petunjuk ke mesin. Kamu dapat juga memverifikasi transkrip dari _common voice_ untuk memastikan _recognition engine_ benar pada tracknya.
 
 #### [_Firefox Devtools_](https://mozilladevelopers.github.io/playground/)
 
@@ -59,7 +53,7 @@ Mengikuti perubahan didalam Firefox saya sebutkan diatas, kamu mungkin tidak ter
 
 ![Change Theme](https://bamsarts.github.io/img/devtools.gif)
 
-_Developer tool_ baru hadir dengan tiga opsi tema yang berbeda yaitu, _dark_, _clear_, dan _Firebug_._Firebug tool_ yang cukup populer sekarang masih digunakan oleh banyak orang, meskipun pengembangannya telah terhenti. Bahkan ada pos blog untuk membandingkan penggunaan warna, yang bisa dilihat di [Firefox Nightly News](https://blog.nightly.mozilla.org/2017/09/11/developer-tools-visual-refresh-coming-to-nightly/)
+_Developer tool_ yang hadir dengan tiga opsi tema yang berbeda yaitu, _dark_, _clear_, dan _Firebug_. _Firebug tool_ yang cukup populer sekarang masih digunakan oleh banyak orang, meskipun pengembangannya telah terhenti. Bahkan ada artikel blog yang membandingkan penggunaan warna. Blog tersebut dapat dilihat di [Firefox Nightly News](https://blog.nightly.mozilla.org/2017/09/11/developer-tools-visual-refresh-coming-to-nightly/)
 
 
 #### _CSS Grid_
@@ -78,7 +72,7 @@ Nilai margin dan padding didalam elemen dapat sewaktu-waktu seperti puzzle. Deng
 
 ![CSS Variables](https://bamsarts.github.io/img/cssVaribale.gif)
 
-Inovasi CSS lainnya yaitu mengenalkan variabel. Meskipun belum semua browser mendukungya, penggunaannya pasti akan meningkat setiap waktu. Seperti namanya, kamu dapat menetapkan apapun nilainya ke variabel. Ingin mengecek berapa nilainya ? caranya mudah cukup menghover mouse ke objeknya. Untuk lebih lanjut bisa kunjungi [https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_variables](https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_variables)
+Inovasi CSS lainnya yaitu mengenalkan variabel. Meskipun belum semua browser mendukungya, penggunaannya pasti akan meningkat setiap waktu. Seperti namanya, kamu dapat menetapkan apapun nilainya ke variabel. Ingin mengecek berapa nilainya ? caranya cukup mudah dengan menghover mouse ke objeknya. Untuk lebih lanjut bisa kunjungi [https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_variables](https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_variables)
 
 #### _Add/Remove Class_
 
@@ -108,7 +102,7 @@ Animasi merupakan pengembangan populer lainnya. Kamu dapat menjalankan animasi s
 
 ![Console Log](https://bamsarts.github.io/img/console.gif)
 
-Ketika saya pindah ke bagian _console_, kamu dapat dengan mudah memeriksa objek. Plus, struktur keynya yang dapat dengan mudah menseleksi objeknya dan menyembunyikannya.
+Ketika saya pindah ke bagian _console_, kamu dapat dengan mudah memeriksa objek. Plus, struktur keynya yang dapat dengan mudah menseleksi objek dan menyembunyikannya.
 
 #### Console.group
 
@@ -126,7 +120,7 @@ Alat yang bagus untuk _javascript debugging_ yang sangat diperlukan. Dengan _bre
 
 ![Source Maps](https://bamsarts.github.io/img/sourceMap.gif)
 
-SCSS, WebAssembly, TypeScript, dan Babel merupakan _Javascript_ atau _CSS Transpiler_ yang paling populer saat ini. Akibatnya, struktur kode berakhir di dalam _browser_ yang sering diproses kedalam sesuatu yang berbeda dari versi originalnya _source code_ nya. Denga demikian, kamu dapat fokus bekerja ke file _source code_ aslinya, dengan menggunakan _source maps_.
+SCSS, WebAssembly, TypeScript, dan Babel merupakan _Javascript_ atau _CSS Transpiler_ yang paling populer saat ini. Akibatnya, struktur kode berakhir di dalam _browser_ yang sering diproses kedalam sesuatu yang berbeda dari versi original _source code_ nya. Denga demikian, kamu dapat fokus bekerja ke file _source code_ aslinya, dengan menggunakan _source maps_.
 
 #### _Project Search & Function Search_
 
@@ -160,4 +154,4 @@ _Cookies_ atau _local storage_ digunakan untuk menyimpan informasi mengenai peng
 
 ### Kesimpulan
 
-Bisnis model perusahaan besar bergantung kepada pengguna yang beralih dari produk pihak ketiga lainnya, oleh karena itu pengguna harus dijaga agar tidak beralih ke produk yang lain. Sebagai contoh, jika kamu menginginkan untuk menonton presentasi _Apple Keynote_ di dalam web, kamu hanya dapat membuka halaman webnya melalui safari.
+Bisnis model perusahaan besar bergantung kepada pengguna yang beralih dari produk lainnya, oleh karena itu pengguna harus dijaga agar tidak beralih ke produk yang lain. Jadi gimana ingin beralih ke Firefox ? Ya, saya tahu ini masih sulit untuk beralih ke Firefox. Kamu perlu untuk merubah kebiasaan, _shortcut_, ekstensi _browser_ dan mungkin password yang disimpan di browser lain. Tapi percayalah, itu sepadan apa yang kamu rasakan ketika sudah beralih :smile:
