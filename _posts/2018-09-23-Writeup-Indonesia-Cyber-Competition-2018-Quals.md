@@ -120,7 +120,7 @@ dapat flagnya : **IDCC{S1mpl3_4nd_stR4ight}**
 
 #### Do Not Cheat! - WEB
 
-![Do Not Cheat](https://bamsarts.github.io/img/denotcheat.png)
+![Do Not Cheat](https://bamsarts.github.io/img/donotcheat.png)
 
 Diberikan url [http://206.189.88.9:6301/](http://206.189.88.9:6301/) jika diaksed web nya ada hal yang menarik pada kode javascript nya yaitu terdapat method post menuju flag.php 
 
