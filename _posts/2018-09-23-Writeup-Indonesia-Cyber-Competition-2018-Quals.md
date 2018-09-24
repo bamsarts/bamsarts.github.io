@@ -205,6 +205,10 @@ for i in range(10):
 
 ```
 
+Flagnya : 
+
+![flag](https://bamsarts.github.io/img/flag-ezpz.png)
+
 
 
 
