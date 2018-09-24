@@ -4,7 +4,7 @@ title:      Apakah React Native Layak dipelajari ?
 subtitle:   
 date:       2018-05-02
 author:     Bambang S
-header-img: img/Accenture-Full-Home.jpg
+header-img: img/Apakah-React-Native-Layak-Dipelajari/Accenture-Full-Home.jpg
 catalog: false
 tags:
     - reactjs
