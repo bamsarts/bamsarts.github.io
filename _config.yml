@@ -5,7 +5,7 @@ header-img: img/header5.jpg
 email: bambang_supriadi@hotmail.com
 description: "Every failure is leading towards success."
 keyword: "bamsarts, react-native, react-js"
-url: "http://bamsarts.me"          # your host, for absolute URL
+url: "http://bamsarts.github.io"          # your host, for absolute URL
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
 #github_repo: "https://github.com/qiubaiying/qiubaiying.github.io.git" # you code repository
 
