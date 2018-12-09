@@ -22,4 +22,6 @@ Selama saya mempelajari warna yang telah terapkan di produk, saya menemukan sisa
 
 ![Pink](https://bamsarts.github.io/img/pink.png)
 
-Ketika saya memulai, saya ingin benar-benar memahami mengapa fragmentasi terjadi.
+Ketika saya memulai, saya ingin benar-benar memahami mengapa fragmentasi terjadi. Setelah saya perhatikan bagaimana orang-orang, khususnya di berbagai disiplin ilmu, mendeskripsikan warna untuk satu sama lain, saya melihat bentuk penyimpangan yang terjadi dalam cara mereka berbicara tentang warna. Rasanya jelas sekarang, tetapi tidak pada saat itu. Untuk mencapai keberhasilan, perlu memiliki _designer_ dan _engineer_ dalam menyepakati kosakata di sekitar warna. Yang dimaksud adalah _designer_ dan _engineer_ dapat menunujukan warna dan mengatakan nama warna yang sama, tetapi juga sebaliknya jika diberi nama warna, baik _designer_ dan _engineer_ dapat menebak dengan tepat apa yang akan terjadi. Intinya, saya membutuhkan bahasa untuk medukung warna.
+
+Saya perhatikan ketika orang berbicara tentang warna, disana ada dua bagian mendasar yang dikomunikasikan.
