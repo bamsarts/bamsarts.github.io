@@ -2,7 +2,7 @@
 layout:     post
 title:      Lebih Dekat Dengan Warna
 subtitle:   
-date:       2018-09-23
+date:       2018-12-10
 author:     Bambang S
 header-img: img/colour.jpg
 catalog: false
@@ -24,4 +24,6 @@ Selama saya mempelajari warna yang telah terapkan di produk, saya menemukan sisa
 
 Ketika saya memulai, saya ingin benar-benar memahami mengapa fragmentasi terjadi. Setelah saya perhatikan bagaimana orang-orang, khususnya di berbagai disiplin ilmu, mendeskripsikan warna untuk satu sama lain, saya melihat bentuk penyimpangan yang terjadi dalam cara mereka berbicara tentang warna. Rasanya jelas sekarang, tetapi tidak pada saat itu. Untuk mencapai keberhasilan, perlu memiliki _designer_ dan _engineer_ dalam menyepakati kosakata di sekitar warna. Yang dimaksud adalah _designer_ dan _engineer_ dapat menunujukan warna dan mengatakan nama warna yang sama, tetapi juga sebaliknya jika diberi nama warna, baik _designer_ dan _engineer_ dapat menebak dengan tepat apa yang akan terjadi. Intinya, saya membutuhkan bahasa untuk medukung warna.
 
-Saya perhatikan ketika orang berbicara tentang warna, disana ada dua bagian mendasar yang dikomunikasikan.
+Saya perhatikan ketika orang berbicara tentang warna, disana ada dua bagian mendasar yang dikomunikasikan. Disana terdapat warna **hue**, yang tertuju pada rotasi warna, dan disana juga terdapat _modifier_ yang tertuju pada derajat kecerahan dan kegelapan pada warna. yang umumnya terdengar seperti biru muda, hijau tua, merah tua_ dll. Saya tahu dalam membangun bahasa untuk warna akan menjadi sepele dibandingkan dengan membuat orang benar-benar menggunakannya sehari-hari. Jadi saya perlu menandai rasio _cost value_, yang artinya sistem harus sederhana untuk dipelajari dan sangat efisien.
+
+Untuk memastikan itu sederhana, saya manfaatkan pengetahuan orang terhadap pada warna-warna yang masih tersedia, jadi saya adopsikan istilah seperti biru, hijau, dan merah untuk mendeskripsikan warna. Untuk warna yang lebih rumit, saya lebih suka kata-kaya yang lebih pendek dan mudah dieja yang cukup mudah dimengerti seperti _mint, teal, rose_ dll.
